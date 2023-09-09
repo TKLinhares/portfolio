@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<h1> Viagem dos Sonhos</h1>
+<body>
+    <form method="GET" action="">
+        <fieldset>
+            <legend>Reserva de Viagem</legend>
+            <label>Nome</label>
+            <br><input type="text" name="Nome"><br>
+            <label>Email</label>
+            <br><input type="email" name="Email"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Serviço Desejado</legend>
+        <label>
+            <Input type="checkbox" name="Compra de Passagens" value="ComprarPassagens">Compra de Passagens</Input>
+        </label><br>
+        <label>
+            <input type="checkbox" name="Reserva de Hospedagem" value="ReservaHospedagem">Reserva de Hospedagem
+        </label><br>
+        <label>
+            <input type="checkbox" name="Aluguel de Veiculos" value="AluguelVeiculos">Aluguel de Veiculos
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Forma de Pagamento</legend>
+        <label>
+            <input type="radio" name="FormaPagamento" value="CartaoCredito"> Cartão de Crédito
+        </label>
+        <br><label>
+            <input type="radio" name="FormaPagamento" value="Boleto"> Boleto
+        </label>
+        <br><label>
+            <input type="radio" name="FormaPagamento" value="PIX"> PIX
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Prazo de Pagamento</legend>
+        <select name="PrazoPagamento">
+            <option value="AVista" selected>À Vista</option>
+            <option value="5xSemJuros">5 Vezes Sem Juros</option>
+            <option value="10xComJuros">10 Vezes Com Juros</option>
+        </select>
+    </fieldset>
+    <label>Observações</label><br>
+    <textarea rows="10" name="Observações"></textarea><br>
+    <input type="submit" name="Enviar">
+    </form>
+</body>
+</html>
